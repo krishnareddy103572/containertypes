@@ -1,10 +1,7 @@
 package com.ioccontainer.containertypes;
 
 public class Employee {
-	@Override
-	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + "]";
-	}
+	
 
 	int id;
 	String name;
@@ -34,6 +31,10 @@ public class Employee {
 		super();
 		this.id = id;
 		this.name = name;
+	}
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + "]";
 	}
 
 }
